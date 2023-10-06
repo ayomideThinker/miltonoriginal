@@ -1,0 +1,300 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url(../img/2bg.jpg);
+    background-color: #31191930;
+}
+
+.navbar a{
+    color: rgba(255, 255, 255, 0.897);
+    margin-right: 1rem;
+    font-weight: 600;
+    text-decoration: solid;
+    /* text-trnsform: lowercase; */
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top: 0.8rem;
+    
+}
+
+
+.navbar a{
+    color: rgba(231, 219, 219, 0.897);
+    margin-right: 1rem;
+    font-weight: 500;
+    font-size: 1.05rem;
+    text-decoration: solid;
+    /* text-trnsform: lowercase; */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 0.9rem;
+    
+}
+
+
+.navbar li a:hover{
+    color: rgb(142, 105, 168);
+    font-weight: 600;
+    /* font-family:Georgia, 'Times New Roman', Times, serif;  */
+    transition: 0.2s;
+    
+}
+
+.everything{
+    margin: auto;
+    margin-top: 5rem;
+    width: 50rem;
+    height: 50vh;
+}
+.dropdown{
+    /* background-color: #131921; */
+    color: white;
+    width: 6rem;
+    border-radius: 6px;
+}
+
+.dropdown-menu{
+    background-color:#192331;
+    color: whitesmoke;
+}
+.dropdown-menu li a:hover{
+    background-color:#0f141b;
+    color: whitesmoke;
+}
+
+.banner-text{
+    padding-bottom: 20rem;
+}
+
+.card-body{
+    height: 50vh;
+    padding-top: 8rem;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.row{
+    background-image: url(../img/blob-scene-haikei\(1\).png);
+    background-size: cover;
+    filter: blur(60%);
+    /* background-color: transparent; */
+    border-radius: px;
+    /* height: 50vh; */
+}
+
+.card{
+    border-radius: 2rem;
+
+}
+
+.card-title{
+    color: antiquewhite;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+}
+
+.card-text{
+    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.whole{
+    align-self: center;
+    margin: auto;
+    
+}
+
+
+/* .nav1 a:hover{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    margin-bottom: 2rem;
+    background: #1f160d;
+    border-radius: 10px;
+}
+
+.navbar-brand a{
+    color: rgb(251, 251, 252);
+    font-size: 1rem;
+    text-decoration: none;
+}
+*/
+.navbar p{
+   
+    margin-left: 5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+}
+  
+
+
+
+
+
+/* .navbar a{
+    color: rgba(255, 255, 255, 0.897);
+    margin-right: 1rem;
+    font-weight: 600;
+    text-decoration: solid;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top: 0.8rem;
+    
+}
+
+
+.navbar li a:hover{
+    color: rgb(247, 181, 181);
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: 0.6s;
+    
+} */
+
+
+img{
+    border-radius: 50%;
+    width: 15rem;
+    /* padding-top: rem; */
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+
+
+.toggle{
+    display: block;
+    color: rgb(231, 231, 231);
+    border: none !important;
+    outline: none !important;
+    align-items: end;
+    background-color: transparent;
+    
+}
+
+
+
+@media(max-width:767.68px){
+    .navbar{
+        width: 100%;
+        /* height: 6rem; */
+        /* background-image: url(/img/2bg.jpg); */
+        background-color: #18202a;
+    }
+    .navbar-brand a{
+        color: rgb(255, 255, 255);
+        font-size: 0.7rem;
+        text-decoration: none;
+    }
+    .toggle{
+        display: block;
+        color: rgb(231, 231, 231);
+        border: none !important;
+        outline: none !important;
+        align-items: end;
+        background-color: transparent;
+        
+    }
+    .navbar p{
+        padding-top: 1rem;
+        margin-left: 1rem;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 2.1rem;
+    }
+
+    .everything{
+        width: 40rem;
+        margin-top: 1rem;
+    }
+    .card-body{
+        padding-top: 0.7rem;
+        color: white;
+        height: 14rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .card-text{
+        font-size: 1rem;
+    }
+    .card-title{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    img{
+        padding-top: 1rem;
+    }
+
+
+
+
+}
+
+@media(max-width:575.68px){
+    .navbar{
+        width: 100%;
+        /* height: 6rem; */
+        /* background-image: url(/img/2bg.jpg); */
+        background-color: #18202a;
+    }
+    .navbar p{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        /* margin: auto; */
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 0.6rem;
+        /* padding: none; */
+    }
+    .navbar a{
+        font-size: 15px;
+        font-weight: 200;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .navbar-brand a{
+        color: rgb(55, 55, 123);
+        font-size: 0.7rem;
+        text-decoration: none;
+    }
+    .toggle{
+        display: block;
+        color: rgb(231, 231, 231);
+        border: none !important;
+        outline: none !important;
+        align-items: end;
+        background-color: transparent;
+        
+    }
+    .navbar p{
+        /* padding-top: 1rem; */
+        margin-left: 1rem;
+        font-weight: 600;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 1.5rem;
+    }
+
+    .everything{
+        width: 22rem;
+        margin-top: 5rem;
+    }
+    .card-body{
+        padding-top: 0.7rem;
+        color: white;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .card-text{
+        font-size: 1rem;
+    }
+    .card-title{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    img{
+        width: 10rem;
+    }
+
+
+
+}
+

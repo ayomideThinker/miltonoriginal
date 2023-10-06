@@ -1,0 +1,148 @@
+*{
+    margin: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+.dropdown{
+    /* background-color: #131921; */
+    color: white;
+    width: 6rem;
+    border-radius: 6px;
+}
+
+.dropdown-menu{
+    background-color:#192331;
+    color: whitesmoke;
+}
+.dropdown-menu li a:hover{
+    background-color:#0f141b;
+    color: whitesmoke;
+}
+
+
+
+body{
+    /* background-color: rgba(38, 68, 50, 0.873); */
+    background-image: url(../img/blob-scene-haikei.png);
+    background-size: cover;
+}
+
+.container-fluid{
+    align-items: center;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.title{
+    font-size: 2.8rem;
+    color: rgb(202, 200, 204);
+    font-weight: 500;
+    font-family:cursive;
+    margin-bottom: 3rem;
+}
+
+
+
+
+.subjects{
+    background-color: rgb(14, 34, 34);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.812);
+    width: 35rem;
+    margin: auto;
+    text-align: center;
+    height: 33rem;
+    border-radius: 5px;
+    padding: 2rem;
+
+}
+
+.subject{
+    padding-bottom: 30px;
+    /* margin-bottom: 2rem; */
+
+}
+
+.subject li{
+    font-size: 1rem;
+}
+
+button{
+    padding: 15px;
+    width: 25rem;
+    border-radius: 7px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    background-color: rgb(206, 206, 206);
+    margin-bottom: 2rem;
+}
+button:hover{
+    padding: 15px;
+    width: 25rem;
+    color: rgb(255, 251, 251);
+    background-color: rgb(38, 52, 52);
+    border-radius: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    transition: 0.5s;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.home i{
+    text-decoration: none;
+    color: rgb(79, 134, 84);
+    font-size: 1.4rem;
+    padding-left: 3rem;
+    padding-top: 3rem;
+}
+
+
+@media(max-width:767.68px){
+    .subjects{
+        margin: auto;
+        width: 30rem;
+        box-shadow: 0 3px 10px rgba(16, 24, 19, 0.812);
+
+    }
+}
+
+@media(max-width:575.68px){
+    .subjects{
+        margin: auto;
+        width: 22rem;
+        box-shadow: 0 3px 10px rgba(10, 15, 12, 0.812);
+
+    }
+    .title{
+        font-size: 1.9rem;
+    }
+    .home i{
+        text-decoration: none;
+        color: rgb(79, 122, 82);
+        font-size: 1.1rem;
+        padding-left: 2rem;
+        padding-top: 2rem;
+    }
+    button{
+        font-size: 14px;
+        padding: 15px;
+        width: 17.5rem;
+        border-radius: 5px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 400;
+        background-color: rgb(206, 206, 206);
+    }
+    button:hover{
+        padding: 15px;
+        width: 17.5rem;
+        font-size: 14px;
+        color: rgb(255, 251, 251);
+        background-color: rgb(70, 103, 103);
+        border-radius: 5px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 400;
+        transition: 0.5s;
+    }
+}

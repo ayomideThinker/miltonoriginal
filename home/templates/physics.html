@@ -1,0 +1,104 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static '' %}css/english.css">
+
+    <title>Physics Test Section</title>
+  </head>
+  <body>
+    <!-- content section  -->
+
+    <div class="sections">
+      <a href="{% url 'sections' %}"><i class="fa-solid fa-house">home</i></a>
+  </div>
+
+    <div class="description">
+      <span class="first">Hello welcome to MIlton's Physics Text Quiz section.</span> 
+      Sections 1 and 2. Each sections has maximum of 5 questions.
+      There is a total of ten questions in the Physics Quiz 
+      and markings are 2 points for each correct answers.
+      Total questions carries 20 points. <span>Please read instructions carefully.</span>
+    </div>
+
+    <div class="title mb-2">
+      <h4>Section 1</h4>
+      <!-- <p>In each of the following sentences, 
+        there is one underlined word and one gap. 
+        From the list of words lettered A to D,
+         choose the one that is most nearly opposite 
+         in meaning to the underlined word and that will, 
+         at the same time, 
+        correctly fill the gap in the sentences.</p> -->
+    </div>
+
+    <div class="container-fluid content">
+      <form name="quiz" id="quiz" action="">
+        <div>
+          <p>1. What determines the polarity at the ends of an electromagnet? The </p>
+          <p><input type="radio" name="question1" value="magnitude of teh current passing through teh wire"> A. magnitude of teh current passing through teh wire</p>
+          <p><input type="radio" name="question1" value="material of the core of the magnet"> B. material of the core of the magnet</p>
+          <p><input type="radio" name="question1" value="material  of the coil"> C. material  of the coil</p>
+          <p><input type="radio" name="question1" value="diretion of current in the wire"> D. diretion of current in the wire</p>
+        </div>
+        <div>
+          <p>2.In a p-type semiconducter, the </p>
+          <p><input type="radio" name="question2" value="number of holes are equal to the number of electrons"> A. number of holes are equal to the number of electrons</p>
+          <p><input type="radio" name="question2" value="electrical resistivity increases"> B. electrical resistivity increases</p>
+          <p><input type="radio" name="question2" value="electrons are the majority charge carriers"> C. electrons are the majority charge carriers</p>
+          <p><input type="radio" name="question2" value="holes are the majority charge carriers"> D. holes are the majority charge carriers</p>
+        </div>
+        <div>
+          <p>3. Which of the following factors does not affect the e.m.f of a primary cell? its</p>
+          <p><input type="radio" name="question3" value="size"> A. size</p>
+          <p><input type="radio" name="question3" value="internal resistance"> B. internal resistance</p>
+          <p><input type="radio" name="question3" value="operating temperature"> C. operating temperature</p>
+          <p><input type="radio" name="question3" value="duration of usage"> D. duration of usage</p>
+        </div>
+        <div>
+          <p>4. The electricity meters in the houses measure energy unit consumed in</p>
+          <p><input type="radio" name="question4" value="kilowatt-hour"> A. kilowatt-hour</p>
+          <p><input type="radio" name="question4" value="volt"> B. volt</p>
+          <p><input type="radio" name="question4" value="ampere"> C. ampere</p>
+          <p><input type="radio" name="question4" value="coulumb"> D. coulumb</p>
+        </div>
+        <div>
+          <p>5. Two different materials, rubbed against each other acquired opposite charges when separated. This is an example of charging by</p>
+          <p><input type="radio" name="question5" value="induction"> A. induction</p>
+          <p><input type="radio" name="question5" value="friction"> B. friction</p>
+          <p><input type="radio" name="question5" value="conduction"> C. conduction</p>
+          <p><input type="radio" name="question5" value="convection"> D. convection</p>
+        </div>
+      </form>
+      <div class="next">
+        <a href="/physics2.html"><button>Next Section</button></a>
+      </div>
+    </div>
+
+ 
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="{% static '' %}js/physics.js"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

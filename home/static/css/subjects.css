@@ -1,0 +1,28 @@
+*{
+    margin: none;
+    padding: none;
+    box-sizing: border-box;
+}
+
+
+.description{
+    text-align: center;
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+
+.dropdown{
+    /* background-color: #131921; */
+    color: white;
+    width: 6rem;
+    border-radius: 6px;
+}
+
+.dropdown-menu{
+    background-color:#192331;
+    color: whitesmoke;
+}
+.dropdown-menu li a:hover{
+    background-color:#0f141b;
+    color: whitesmoke;
+}

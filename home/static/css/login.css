@@ -1,0 +1,284 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:Arial, Helvetica, sans-serif;
+
+}
+
+body{
+	background-image: linear-gradient(rgba(34, 34, 37, 0.8),rgba(37, 37, 38, 0.8)), url(../img/bg.jpg);
+	width: 100%;
+	/* background-position: center;
+	background-size: cover;
+	position: relative; */
+
+}
+
+.dropdown{
+    /* background-color: #131921; */
+    color: white;
+    width: 6rem;
+    border-radius: 6px;
+}
+
+.dropdown-menu{
+    background-color:#192331;
+    color: whitesmoke;
+}
+.dropdown-menu li a:hover{
+    background-color:#0f141b;
+    color: whitesmoke;
+}
+
+
+.container{
+	width: 100%;
+	height: 90vh;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+.form-box{
+	margin-top: rem;
+	width: 90%;
+	max-width: 450px;
+	position: absolute;
+	border-radius: 6px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #15171fb3;
+	padding: 40px 50px 60px;
+	text-align: center;
+	align-items: center;
+}
+
+.form-box h1{
+	font-size: 30px;
+	margin-bottom: 40px;
+	color: #d6cce6;
+	position: relative;
+	font-weight:800;
+}
+
+.form-box h1::after{
+	content: '';
+	width: 30px;
+	height: 4px;
+	border-radius: 3px;
+	background-color: #d48fd4;
+	position: absolute;
+	bottom: -12px;
+	left: 50%;
+	transform: translateX(-50%)
+}
+
+.input-field{
+	background: #eaeaea;
+	margin: 10px 0;
+	border-radius: 4px;
+	display: flex;
+	width: 100%;
+	align-items: center;
+	max-height: 65px;
+	transition: max-height 0.5s;
+	overflow: hidden;
+	
+}
+
+
+
+input{
+	width: 100%;
+	background: transparent;
+	border: 0;
+	font-size: 0.9rem;
+	outline: 0;
+	padding: 18px 15px;
+	border-radius: 4px;
+}
+
+.input-field i{
+	margin-left: 15px;
+	color: #999;
+}
+
+form p{
+	text-align: left;
+	font-size: 13px;
+
+}
+
+form p a{
+	text-decoration: none;
+	color: #3c00a0;
+}
+.btn-field{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.btn-field button{
+	flex-basis: 48%;
+	background-color: #570628ba;
+	color:#ffffff;
+	height: 40px;
+	border-radius: 20px;
+	border: o;
+	font-size: 0.9rem;
+	font-weight: 500;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	outline: 0;
+	cursor: pointer;
+	transition: background 1s;
+}
+
+/* .input-group{
+	height: 280px;
+} */
+
+.btn-field button.disable{
+	background-color: #f1f1f1;
+	color: #555;
+}
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+
+body{
+    background: url(../img/2bg.jpg);
+} 
+
+
+
+
+
+
+
+
+
+.toggle{
+    display: block;
+    color: rgb(126, 185, 236);
+    border: none !important;
+    outline: none !important;
+    align-items: end;
+    background-color: #222f3e;   
+}
+.btn-field a{
+    text-decoration: none;
+    color: #eaeaea;
+}
+
+
+
+.navbar a{
+    color: rgba(255, 255, 255, 0.897);
+    margin-right: 1rem;
+    font-weight: 600;
+    text-decoration: solid;
+    /* text-trnsform: lowercase; */
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top: 0.8rem;
+    
+}
+
+
+.navbar a{
+    color: rgba(231, 219, 219, 0.897);
+    margin-right: 1rem;
+    font-weight: 500;
+    font-size: 1.05rem;
+    text-decoration: solid;
+    /* text-trnsform: lowercase; */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 0.9rem;
+    
+}
+
+
+.navbar li a:hover{
+    color: rgb(142, 105, 168);
+    font-weight: 600;
+    /* font-family:Georgia, 'Times New Roman', Times, serif;  */
+    transition: 0.2s;
+    
+}
+
+
+@media(max-width:575.68px){
+    .navbar{
+        width: 100%;
+        /* height: 6rem; */
+        /* background-image: url(/img/2bg.jpg); */
+        background-color: #18202a;
+    }
+    .nav-item{
+        font-size: 0.9rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .navbar-brand a{
+        color: rgb(251, 251, 252);
+        font-size: 0.5rem;
+        text-decoration: none;
+    }
+
+    .dropdown{
+        /* background-color: #131921; */
+        color: white;
+        width: 6rem;
+        border-radius: 6px;
+    }
+    
+    .dropdown-menu{
+        background-color:#192331;
+        color: whitesmoke;
+    }
+    .dropdown-menu li a:hover{
+        background-color:#0f141b;
+        color: whitesmoke;
+    }
+    
+    .show{
+        width: 100%;
+    }
+    .toggle{
+        display: block;
+        color: rgb(231, 231, 231);
+        border: none !important;
+        outline: none !important;
+        align-items: end;
+        background-color: transparent;
+        
+    }
+    .navbar p{
+        padding-top: 0.7rem;
+        margin-left: 1rem;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 1.3rem;
+    }
+    input{
+        width: 100%;
+        /* width: 20rem; */
+        background: transparent;
+        border: 0;
+        font-size: 0.8rem;
+        outline: 0;
+        padding: 18px 15px;
+        border-radius: 4px;
+    }
+    .input-field{
+        width: 35rem;
+    }
+    .form-box{
+        padding: 1.9rem;
+    }
+    
+
+}
